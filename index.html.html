@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Faz property</title>
+        <style>
+            body {
+font-family: Arial,  sans-serif;
+background: url('image13.jpg') no-repeat center center fixed;
+color: #141414;
+margin: 0;
+padding: 0;
+            }
+            header {
+                background: #2d2d2d;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+
+            header img {
+                height: 150px;
+                margin-bottom: 15px;
+            }
+            main {
+               background-color: rgba(241, 202, 202, 0.6); 
+               max-width: 500px;
+                padding: 30px;
+                border-radius: 10px;
+            } 
+
+            h1, p { 
+                margin: 10px 0;
+            }
+
+            form {
+display: flex;
+flex-direction: column;
+            }
+
+            label {
+                margin-top: 15px;
+                font-weight: bold;
+            }
+
+             input, select, textarea {
+                padding: 10px;
+                margin-top: 5px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+            
+            button {
+               margin-top: 20px;
+                padding: 12px;
+                background-color: #28a745;
+                color: white;
+                font-size: 16px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <img src="image 15.jpg" alt="Faz property Logo" />
+            <h1>Faz property</h1>
+            <p>I help clients rent, buy, or build properties with peace of mind.</p>
+        </header>
+
+        <main>
+            <section>
+                <h2>Services</h2>
+                <ul>
+                    <li>Real Estate Consulting</li>
+<li>Property Sales & Rentals</li>
+<li>Building Construction & Supervision</li>
+                </ul>
+            </section>
+
+           <section>
+            <h2>Request a Property</h2>
+            <form
+            action="https://formspree.io/f/mgvzknwa"
+            method="POST">
+            <label>Full Name:</label>
+            <input type="text" name="name" required>
+
+            <label>Phone Number:</label>
+            <input type="text" name="Phone" required>
+
+            <label>Email(optional):</label>
+            <input type="email" name="email">
+
+            <label>Are you Intrested in:</label>
+            <select name="intrest">
+                <option>Rent</option>
+                <option>Buy</option>
+                <option>Both</option>
+            </select>
+
+            <label>Preffered Location:</label>
+            <input type="text" name="Location">
+            <label>Budget (₦):<label>
+                <input type="text" name="Budget">
+               <br> 
+               <br>
+               <label>Any Additional info:</label>
+                <textarea name="message" rows="4"></textarea>
+
+                <button type="submit">Send Request</button>
+        </form>
+           </section> 
+        </main>
+        <footer>
+<strong>Call or WhatsApp:</strong> 
+<strong>08057822857</strong><br>
+<br>
+<br>
+            <strong>ⱺ 2025 Faz Property. All rights reserved.</strong>
+        </footer>
+    </body>
+</html>
